@@ -1,6 +1,6 @@
 {
   "name": "css-annotation-block",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A css-annotation module to return the specific nodes",
   "main": "index.js",
   "scripts": {
