@@ -33,7 +33,7 @@ module.exports = function (css) {
                 tmpNodes.push(node)
             }
 
-            if (flag.start === true && flag.end === true) {
+            if (flag.start === true && flag.end === true && tmpNodes.length !== 0) {
                 results.push({
                     name: flag.name,
                     nodes: tmpNodes
@@ -44,6 +44,5 @@ module.exports = function (css) {
 
     })
 
-    console.log(results)
     return results
 }

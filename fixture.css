@@ -1,12 +1,13 @@
-/* @start hoge
- * @foo */
+/* @start hoge */
 
 .class {
     color: red;
 }
 
-/* @end foo*/
+/* @end hoge*/
+
+/* @start hoge */
 .class {
-    color: red;
+    color: blue;
 }
 /* @end hoge */
