@@ -1,0 +1,11 @@
+/* @start hoge */
+
+.class {
+    color: red;
+}
+
+/* @end foo*/
+.class {
+    color: red;
+}
+/* @end hoge */
