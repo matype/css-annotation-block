@@ -1,6 +1,5 @@
 var annotation = require('css-annotation')
 var postcss = require('postcss')
-var inspect = require('obj-inspector')
 
 module.exports = function (css) {
     var root = postcss.parse(css)
