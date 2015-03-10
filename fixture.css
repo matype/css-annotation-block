@@ -1,4 +1,5 @@
-/* @start hoge */
+/* @start hoge
+ * @foo */
 
 .class {
     color: red;
