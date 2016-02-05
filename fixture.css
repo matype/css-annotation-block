@@ -1,13 +1,5 @@
-/* @start hoge */
-
-.class {
-    color: red;
+/* @start color */
+:root {
+    --mainColor: #123456;
 }
-
-/* @end hoge*/
-
-/* @start hoge */
-.class {
-    color: blue;
-}
-/* @end hoge */
+/* @end color */
