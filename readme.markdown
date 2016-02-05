@@ -1,6 +1,6 @@
 # css-annotation-block [![Build Status](https://travis-ci.org/morishitter/css-annotation-block.svg)](https://travis-ci.org/morishitter/css-annotation-block)
 
-A css-annotation module to return the specific nodes
+A [css-annotation](https://github.com/morishitter/css-annotation-block) module to return the specific nodes
 
 ## Install
 
