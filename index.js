@@ -33,7 +33,7 @@ module.exports = function (css) {
             }
 
             if (flag.start === true && flag.end === true && tmpNodes.length !== 0) {
-                var exists = results.filter(obj => {
+                var exists = results.filter(function(obj) {
                   return obj.name === flag.name;
                 });
 
