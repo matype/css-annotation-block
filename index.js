@@ -33,11 +33,17 @@ module.exports = function (css) {
             }
 
             if (flag.start === true && flag.end === true && tmpNodes.length !== 0) {
-                results.push({
-                    name: flag.name,
-                    nodes: tmpNodes
-                })
-                tmpNodes = []
+                var exists = results.filter(obj => {
+                  return obj.name === flag.name;
+                });
+
+                if (!exists.length > 0) {
+                    results.push({
+                        name: flag.name,
+                        nodes: tmpNodes
+                    })
+                    tmpNodes = []
+                }
             }
         })
 

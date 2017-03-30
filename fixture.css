@@ -3,3 +3,9 @@
     --mainColor: #123456;
 }
 /* @end color */
+
+/* @start font */
+:root {
+    --mainFont: Arial;
+}
+/* @end font */

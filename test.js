@@ -9,5 +9,8 @@ test('test', function (t) {
 
     t.equal(actual[0].name, 'color')
     t.equal(actual[0].nodes.length, 1)
+
+    t.equal(actual[1].name, 'font')
+    t.equal(actual[1].nodes.length, 1)
     t.end()
 })
